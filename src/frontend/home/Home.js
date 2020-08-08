@@ -186,20 +186,19 @@ const ErrorIcon = () => (
 );
 
 const Title = ({children}) => {
-  return <TitleContainer><SideLine>{children}</SideLine></TitleContainer>
+  return <TitleContainer id={children.toString()}><SideLine>{children}</SideLine></TitleContainer>
 };
 
 const mediaMobile = mediaQuery.lessThan("medium");
 
 const Container = styled.div`
-  min-height: 74vh;
-  ${mediaMobile`min-height: 58vh;`}
+  margin-top: 20vh;
 `;
 
 const TitleContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin: 20vh 0 5vh 0;
+  padding: 20vh 0 5vh 0;
 `;
 
 const SideLine = styled.div`
@@ -222,11 +221,14 @@ const CardImage = styled.img`
 
 const Cards = styled.div`
   justify-content: space-between;
+  ${mediaMobile`  justify-content: center;`}
   align-content: space-between;
   margin-bottom: -10vh !important;
+  ${mediaMobile`margin-bottom: 0vh !important;`}
 `;
 
 const Card = styled.div`
   margin-bottom: 10vh !important;
+  ${mediaMobile`margin-bottom: 1vh !important;`}
 `;
 export default Home;
