@@ -4,6 +4,8 @@ import {createGlobalStyle} from "styled-components";
 
 import "semantic-ui-css/semantic.min.css"
 import "@fortawesome/fontawesome-free/css/all.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Home from "./home/Home";
 import ErrorBoundary from "../components/organisms/error/ErrorBoundary";
 import ReactGA from "react-ga";

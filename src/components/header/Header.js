@@ -45,9 +45,9 @@ const Header = ({children}) => {
               <Icon name='user'/>
               member
             </Menu.Item>
-            <Menu.Item as={HashLink} to="/#event">
+            <Menu.Item as={HashLink} to="/#events">
               <Icon name='calendar alternate outline'/>
-              event
+              events
             </Menu.Item>
             <Menu.Item as={HashLink} to="/#contact">
               <Icon name='address book outline'/>

@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "add": "^2.0.6",
     "aws-sdk": "^2.726.0",
     "dotenv": "^8.2.0",
     "flat": "^5.0.0",
@@ -22,12 +23,14 @@
     "react-router-hash-link": "^2.0.0",
     "react-scripts": "3.4.1",
     "react-share": "^4.2.1",
+    "react-slick": "^0.27.11",
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^1.1.1",
     "styled-components": "^5.1.1",
-    "styled-media-query": "^2.1.2"
+    "styled-media-query": "^2.1.2",
+    "yarn": "^1.22.5"
   },
   "scripts": {
     "start": "env-cmd -f .env.production react-scripts start",

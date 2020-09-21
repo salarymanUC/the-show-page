@@ -8,16 +8,17 @@ const Footer = () => {
 };
 
 const Container = styled.div`
-    background-color: #0A0A0A;
+    background-color: #565554;
     width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 `;
 
 const CopyRight = styled.span`
-  color: #7FFF1A;
+  color: #FFFFFF;
+  padding-bottom: 3vh;
 `;
 
 export default Footer;
