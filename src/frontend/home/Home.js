@@ -191,6 +191,20 @@ const Home = () => {
               </div>
             </div>
           </AnchorCard>
+          <AnchorCard className="ui card" href="https://yosukeyana.wixsite.com/kashiwaya">
+            <div className="image">
+              <CardImage src="/images/event/kashiwaya.png"/>
+            </div>
+            <div className="content">
+              <div className="header">【佐久】2020 11/15〜11/22 開発合宿</div>
+              <div className="meta">
+                #開発合宿
+              </div>
+              <div className="description">
+                <div>和風旅館をリノベーションしたシェアハウス＆ゲストハウス【柏屋旅館】で開発合宿をしています。</div>
+              </div>
+            </div>
+          </AnchorCard>
         </Cards>
       </div>
       <Title>contact</Title>
