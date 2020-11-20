@@ -171,18 +171,68 @@ const Home = () => {
               <Author>Chapter Two Tokyo（東京） 上田拓明・恵利加
               </Author>
             </Voices>
-            <Voices>
-              <Message>『とにかく縦横無尽に愛する2人の冒険は様々な出会いを機にアイデアとなりプロダクトとなりこの世に生を出す。沢山の赤ん坊を授かるかのように親となりサービスを育てていく姿は”家族”という等身大でユーザーの心を鷲掴みにするチーム。』
-              </Message>
-              <Author>のどけや (徳島) 柴田義帆
-              </Author>
-            </Voices>
           </Slider>
         </div>
       </div>
       <Title>events</Title>
       <div className="ui container">
         <Cards className="ui cards">
+          <AnchorCard className="ui card" href="https://www.nodokeya.com/">
+            <div className="image">
+              <CardImage src="/images/event/nodokeya.png"/>
+            </div>
+            <div className="content">
+              <div className="header">【徳島】2020 4/1〜4/8 開発合宿</div>
+              <div className="meta">
+                #開発合宿
+              </div>
+              <div className="description">
+                <div>徳島、美馬のゲストハウスのどけやで開発合宿を行いました。</div>
+              </div>
+            </div>
+          </AnchorCard> 
+           <AnchorCard className="ui card" href="https://hostel-en.com/">
+            <div className="image">
+              <CardImage src="/images/event/en.png"/>
+            </div>
+            <div className="content">
+              <div className="header">【広島】2020 5/18〜5/26 開発合宿</div>
+              <div className="meta">
+                #開発合宿
+              </div>
+              <div className="description">
+                <div>広島、横川のゲストハウス縁で開発合宿を行いました。</div>
+              </div>
+            </div>
+          </AnchorCard>
+         <AnchorCard className="ui card" href="https://www.kyonan.art/">
+            <div className="image">
+              <CardImage src="/images/event/kyonan.png"/>
+            </div>
+            <div className="content">
+              <div className="header">【千葉】2020 7/2〜7/8 開発合宿</div>
+              <div className="meta">
+                #開発合宿
+              </div>
+              <div className="description">
+                <div>千葉、鋸南のコワーキングスペース鋸南エアルポルトで開発合宿をしています。</div>
+              </div>
+            </div>
+          </AnchorCard>
+          <AnchorCard className="ui card" href="https://hostel-chaptertwo.com/">
+            <div className="image">
+              <CardImage src="/images/event/chaptertwo.png"/>
+            </div>
+            <div className="content">
+              <div className="header">【東京】2020 8/1〜8/8 開発合宿</div>
+              <div className="meta">
+                #開発合宿
+              </div>
+              <div className="description">
+                <div>東京、浅草のゲストハウスChapter two tokyoで開発合宿をしています。</div>
+              </div>
+            </div>
+          </AnchorCard>
           <AnchorCard className="ui card" href="https://stand-by-me.jp/">
             <div className="image">
               <CardImage src="/images/event/standbyme.png"/>
